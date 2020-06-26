@@ -1,0 +1,101 @@
+/*
+ * Version: 2.1
+ * File Description: Place here your custom CSS styles
+ */
+
+/***********************************************************
+******************** BootStrap dialog **********************
+***********************************************************/
+.modal-header {
+    text-align: center; 
+}
+
+.bootstrap-dialog-title h4, .bootstrap-dialog-close-button .close {
+    font-size: 30px !important;
+    color: #fff;
+    display: block; 
+}
+
+.bootstrap-dialog-message {
+    font-size: 18px !important; 
+}
+
+.modal-header.bootstrap-dialog-draggable {
+    cursor: move; 
+}
+.modal-header .h4, .modal-header .h5, .modal-header .h6 {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.modal-header .h1, .modal-header .h2, .modal-header .h3, .modal-header .h4, .modal-header .h5, .modal-header .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit; 
+}
+
+.bootstrap-dialog-header{
+    width: 100%;
+}
+
+/*      CUSTOM TEMPLATE THE_PROJECT    */
+/* Disabled forms */
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.form-control::-moz-placeholder {
+    color: inherit;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.form-control:-ms-input-placeholder {
+    color: inherit;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.form-control::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.7;
+}
+
+.main-container {
+    padding: 20px 0;
+}
+
+/***********************************************************
+************************** Admin ***************************
+***********************************************************/
+div.style-switcher {
+    background-color: #fff;
+    color: #262626;
+    width: 225px;
+    position: fixed;
+    top: 140px;
+    z-index: 1002;
+    left: -227px;
+    border-radius: 0 10px 0 0;	
+}
+
+div.style-switcher a.trigger {
+    display: block;
+    height: 36px;
+    position: absolute;
+    right: -36px;
+    top: 0px;
+    background: #f1f1f1;
+    width: 36px;
+    font-size: 18px;
+    line-height: 35px;
+    color: #777777;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #e1e1e1;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+}

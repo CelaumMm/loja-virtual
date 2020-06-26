@@ -1,0 +1,134 @@
+### APP ##############################################################################################################
+
+APP_NAME="CodeSites estrutura"
+APP_ENV="local"
+APP_DEBUG=true
+APP_HTTPS=false
+
+# Tipo de autenticacao: 1 database, 2 ldap, 3 ambos 
+APP_TIPO_AUTH=1
+
+# GOOGLE OAUTH2
+OAUTH2_GOOGLE=false
+OAUTH2_GOOGLE_CLIENTE_ID=""
+OAUTH2_GOOGLE_CLIENTE_SECRET=""
+
+# TEMPO PARA A SESSAO EXPIRAR: '+1 year +1 month +1 day +1 hour +1 minute +1 second';
+APP_SESSION="+30 minute"
+APP_SESSION_UNIQUE=true
+
+# SENHA PARA CRIPTOGRAFAR E DESCRIPTOGRAFAR
+SENHA_ENCRYPT=!@#CODESITE#@!
+
+# UPLOAD DA FOTO DO USUARIO
+UPLOAD_FOTO="/public/image/perfil/"
+
+### PROJETOS ##############################################################################################################
+
+# ESTRUTURA
+ESTRUTURA=estrutura
+
+# HOME
+PROJETO_HOME=home
+
+# USUARIO
+PROJETO_USUARIO=usuarios
+
+# GRUPOS
+PROJETO_GRUPOS=grupos
+
+# MEMBROS
+PROJETO_MEMBROS=membros
+
+# AGENDA
+PROJETO_AGENDA=agenda
+
+# VDEO
+PROJETO_VIDEO=video
+
+# ADMIN
+PROJETO_ADMIN=admin
+
+### MYSQL ##############################################################################################################
+
+# LOCAL
+MYSQL_LOCAL_DRIVE=mysql
+MYSQL_LOCAL_HOST=127.0.0.1
+MYSQL_LOCAL_PORT=3306
+MYSQL_LOCAL_DATABASE=loja-virtual
+MYSQL_LOCAL_USER=root
+MYSQL_LOCAL_PASSWORD=root
+
+# PRODUCAO
+MYSQL_DRIVE=mysql
+MYSQL_HOST=127.0.0.1
+MYSQL_PORT=3306
+MYSQL_DATABASE=estrutura
+MYSQL_USER=root
+MYSQL_PASSWORD=root
+
+### MARIADB ############################################################################################################
+
+# LOCAL
+MARIADB_LOCAL_DRIVE=mariadb
+MARIADB_LOCAL_HOST=10.0.75.2
+MARIADB_LOCAL_PORT=3306
+MARIADB_LOCAL_DATABASE=estrutura
+MARIADB_LOCAL_USER=root
+MARIADB_LOCAL_PASSWORD=root
+
+# PRODUCAO
+MARIADB_DRIVE=mariadb
+MARIADB_HOST=127.0.0.1
+MARIADB_PORT=3306
+MARIADB_DATABASE=estrutura
+MARIADB_USER=root
+MARIADB_PASSWORD=root
+
+### MSSQL ##############################################################################################################
+
+# PRODUCAO
+MSSQL_DRIVE=dblib
+MSSQL_HOST=127.0.0.1:1433
+MSSQL_PORT=""
+MSSQL_DATABASE=estrutura
+MSSQL_USER=usuario
+MSSQL_PASSWORD=senha
+
+### LDAP ###########################################################################################################
+
+LDAP_HOST=127.0.0.1
+LDAP_PORT=636
+LDAP_SSL=true
+LDAP_BASEDN=OU=corporacao,DC=maquina,DC=dominio,DC=com,DC=br
+LDAP_USER=usuario
+LDAP_PASSWORD=senha
+LDAP_DOMAIN=dominio.com.br
+
+### POSTGREE ###########################################################################################################
+
+POSTGREE_DRIVE=pgsql
+POSTGREE_HOST=127.0.0.1
+POSTGREE_PORT=5432
+POSTGREE_DATABASE=estrutura
+POSTGREE_USER=usuario
+POSTGREE_PASSWORD=senha
+
+### ORACLE ###########################################################################################################
+
+# PRODUCAO
+ORACLE_DRIVE=oci
+ORACLE_HOST=127.0.0.1
+ORACLE_PORT=1521
+ORACLE_DATABASE=estrutura
+ORACLE_USER=usuario
+ORACLE_PASSWORD=senha
+ORACLE_TNS=""
+
+### MAIL ###########################################################################################################
+
+MAIL_DRIVER=smtp
+MAIL_HOST=gmail.com
+MAIL_PORT=25
+MAIL_USUARIO=usuario
+MAIL_SENHA=senha
